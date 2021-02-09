@@ -1,0 +1,64 @@
+{
+  "name": "autotow",
+  "version": "0.1.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "autotow",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/autotow#readme",
+  "bugs": {
+    "url": "https://github.com/zce/autotow/issues"
+  },
+  "license": "MIT",
+  "author": "= <=>",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": "bin/autoTow.js",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/autotow.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "grunt-babel": "^8.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "load-grunt-tasks": "^5.1.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.32.6"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
